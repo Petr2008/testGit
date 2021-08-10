@@ -30,7 +30,7 @@ class FileListController: UITableViewController {
         }
     }
 
-    @IBAction func shareVideo(_ sender: Any) {
+    @IBAction func share(_ sender: Any) {
         let index = tableView.indexPathForSelectedRow?.row
         let fileUrl = fileList[index!]
         

@@ -7,6 +7,14 @@
 
 import UIKit
 
+struct Repo {
+    let name: String
+    let url: URL
+    let description: String
+    let language: String
+    let default_branch: String
+}
+
 class TableViewController: UITableViewController, UITextFieldDelegate {
 
     @IBOutlet var userNameField: UITextField!
@@ -58,12 +66,13 @@ class TableViewController: UITableViewController, UITextFieldDelegate {
             // заголовок
             let header = components[0]
             let name = header.slice(from: "\"name\":\"", to: "\"")!
+
             // описание
             let body = components[1]
             let urlStr = body.slice(from: "html_url\":\"", to: "\"")!
             let description = body.slice(from: "description\":", to: ",")!
+
             let default_branch = repoContext.slice(from: "default_branch\":\"", to: "\"")!
-                                                   //default_branch
             var language = repoContext.slice(from: "language\":\"", to: "\"")
             if language == nil {
                 language = "n/a"

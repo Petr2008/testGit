@@ -16,7 +16,6 @@
 		18C8801F26BD8B790096BD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C8801E26BD8B790096BD5E /* Assets.xcassets */; };
 		18C8802226BD8B790096BD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C8802026BD8B790096BD5E /* LaunchScreen.storyboard */; };
 		18C8802D26BD8C720096BD5E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8802C26BD8C720096BD5E /* TableViewController.swift */; };
-		18C8803026BD986D0096BD5E /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8802F26BD986D0096BD5E /* Structure.swift */; };
 		18C8803626BDB0D70096BD5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8803526BDB0D70096BD5E /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		18C8802126BD8B790096BD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C8802326BD8B790096BD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C8802C26BD8C720096BD5E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		18C8802F26BD986D0096BD5E /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
 		18C8803226BDB0BE0096BD5E /* testGit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testGit.entitlements; sourceTree = "<group>"; };
 		18C8803526BDB0D70096BD5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -76,7 +74,6 @@
 				18C8802C26BD8C720096BD5E /* TableViewController.swift */,
 				188AB03726C053D200E97DFF /* RepoViewController.swift */,
 				188AB03A26C1718800E97DFF /* FileListController.swift */,
-				18C8802F26BD986D0096BD5E /* Structure.swift */,
 				18C8801B26BD8B770096BD5E /* Main.storyboard */,
 				18C8801E26BD8B790096BD5E /* Assets.xcassets */,
 				18C8802026BD8B790096BD5E /* LaunchScreen.storyboard */,
@@ -166,7 +163,6 @@
 				18C8801A26BD8B770096BD5E /* ViewController.swift in Sources */,
 				18C8801626BD8B770096BD5E /* AppDelegate.swift in Sources */,
 				188AB03826C053D200E97DFF /* RepoViewController.swift in Sources */,
-				18C8803026BD986D0096BD5E /* Structure.swift in Sources */,
 				188AB03B26C1718800E97DFF /* FileListController.swift in Sources */,
 				18C8801826BD8B770096BD5E /* SceneDelegate.swift in Sources */,
 				18C8802D26BD8C720096BD5E /* TableViewController.swift in Sources */,

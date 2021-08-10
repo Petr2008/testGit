@@ -35,7 +35,7 @@
                     <navigationItem key="navigationItem" id="CPY-1O-9hm">
                         <barButtonItem key="rightBarButtonItem" enabled="NO" title="Share" id="bg5-Qx-yth">
                             <connections>
-                                <action selector="shareVideo:" destination="HcG-en-XrP" id="1YA-U0-Utm"/>
+                                <action selector="share:" destination="HcG-en-XrP" id="1YA-U0-Utm"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
